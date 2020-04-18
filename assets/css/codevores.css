@@ -1,1 +1,159 @@
-/* font-family: 'Raleway', sans-serif;*/
+/* font-family: 'Raleway', sans-serif;
+turquoise medium #57E6E3
+color footer #00ADB8
+turquoise foncé #30807E
+*/
+body, html{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.btn-custom{
+  background-color: #57E6E3;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.separator{
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #57E6E3;
+}
+/* header */
+.header{
+  background-color: #57E6E3;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float:left;
+}
+
+.menu{
+  float:right;
+}
+
+.menu a {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.menu a:hover{
+  color: #30807E;
+}
+/* banniere */
+.banner{
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban{
+  width: 100%;
+  max-width: 100
+  position: relative;
+}
+
+.ban img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner{
+  top: 60%;
+  width: 100%;
+  text-align: center
+}
+
+.inner-banner h1{
+  color: black;
+}
+.inner-banner .btn-custom{
+  background-color: #57E6E3;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* about */
+#about{
+  text-align: center;
+  padding-top: 10%;
+}
+
+.about article{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.about article h2{
+  text-align: center;
+}
+
+/* portfolio */
+.portfolio{
+  background-color: #eeeeee;
+  height: 600px;
+}
+
+#portfolio{
+  text-align: center;
+}
+
+.portfolio .item-folio{
+  height: 60px;
+}
+/* contact */
+.footer{
+  background-color: #2C5361;
+}
+
+#contact{
+  color: #ffffff;
+  text-align: center;
+}
+
+.formulaire-contact{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+input[type=text]{
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+input[type=email]{
+  height: 50px;
+  width: 500px;
+  border: none;
+}
+
+textarea{
+  width: 500px;
+  height: 200px;
+  resize: vertical;
+}
